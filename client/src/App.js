@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Customers from './components/customers';
 import Header from './components/Header';
 import Main from './components/Main';
+import Sidenav from './components/Sidenav';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -10,7 +11,9 @@ class App extends Component {
       <div >
        <div className="container-fluid">
     <Header/>
+    <Sidenav/>
   <Main/>
+  <Footer/>
   </div>
 </div>
    
